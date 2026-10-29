@@ -9,7 +9,7 @@
 | `torky-cardano-solver` | `b7e8d44` | ISO_17025_CERTIFIED |
 | `torky-core-continuum` | `b836c7e` | ISO_17025_CERTIFIED |
 | `torky-engine-appliance` | `a810e02` | ISO_17025_CERTIFIED |
-| `torky-governance-specs` | `ac8e42f` | ISO_17025_CERTIFIED |
+| `torky-governance-specs` | `953f3b7` | ISO_17025_CERTIFIED |
 | `torky-hardware-simulator` | `ba1130d` | ISO_17025_CERTIFIED |
 | `torky-ipc-daemon` | `b5f52d0` | ISO_17025_CERTIFIED |
 | `torky-lakehouse-bridges` | `24fe59d` | ISO_17025_CERTIFIED |
