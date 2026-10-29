@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(torky-governance-specs LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+include_directories(include)
+add_executable(torky-gov-verify src/torky_cli_kernel.cpp)
+target_compile_options(torky-gov-verify PRIVATE -O3 -Wall -pthread)
