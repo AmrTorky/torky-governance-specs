@@ -17,3 +17,9 @@
 | `torky-quantum-bridge` | `5c32fcf` | ISO_17025_CERTIFIED |
 | `torky-silicon-kernels` | `ef14ef8` | ISO_17025_CERTIFIED |
 | `torky-workspace-ui` | `415c5c8` | ISO_17025_CERTIFIED |
+
+## Distribution Bundle
+- **Archive**: `torky_enterprise_fabric_v5.0.0-omega.tar.gz`
+- **Size**: 374 KiB
+- **SHA-256**: `158ff969da0600e9b5111037549ebe4e5dd2e8c76c978f8202392a7049a8b805`
+- **WORM Policy**: ISO/IEC 17025 Certified (`1dd69a153b00`)
