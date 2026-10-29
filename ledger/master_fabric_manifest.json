@@ -4,62 +4,62 @@
   "accreditation": "ISO/IEC 17025 (1dd69a153b00)",
   "repositories": {
     "torky-ast-metacompiler": {
-      "head_commit": "dbbbed0d6970c0cd578049c3ccb3ef1b04909639",
+      "head_commit": "0fbdc3ce9f9c240b8242fa8728a8e06b7e4f353b",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-cardano-solver": {
-      "head_commit": "b7e8d442d8a2e7f1819484d622a0d5a6929ad4f6",
+      "head_commit": "ad8bd170101ed57fd67a26ab51a8ae56b9d5021a",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-core-continuum": {
-      "head_commit": "b836c7e8bd62c23830d3c363acf6f1fe5fc80235",
+      "head_commit": "1dc3a8d44fe1ba730335178f7bc5eba654a56586",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-engine-appliance": {
-      "head_commit": "a810e02dbfaff65bdf3bf78106a9fbc9336d6d94",
+      "head_commit": "e10c91b01e289ed89b3daaa0118d3b4327306c4a",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-governance-specs": {
-      "head_commit": "953f3b79c40bf9db762fa069a33dfdea8d29ea49",
+      "head_commit": "ed92e5f912813f9a179bcad0c0bc68c5ca0c8eb0",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-hardware-simulator": {
-      "head_commit": "ba1130dc8184e13c66716750fab4d9e9913e262f",
+      "head_commit": "4035397beaf0306860e68c603d646d17153f42e6",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-ipc-daemon": {
-      "head_commit": "b5f52d002a87a56296beb3c6ebad2965ea503fb1",
+      "head_commit": "7ad6dfce8eeb4736e31c99413cdf08fd7be7fbb0",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-lakehouse-bridges": {
-      "head_commit": "24fe59dd6deb32aebcda12865e8e000cb9e605f4",
+      "head_commit": "8ecc7a7a1f504c3ea2c05ddb82bad37cc4cc1128",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-ontology-security": {
-      "head_commit": "30ddfba6d6bc923510a7111f5f387946a856b5d9",
+      "head_commit": "7279deccf62c41b66a4608a72a8d413c18d14b54",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-quantum-bridge": {
-      "head_commit": "d13c0fd03d6e94412418c17b03539a88e2fafd52",
+      "head_commit": "f423519d9e5a7b2727afe9695f5c48825d220251",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-silicon-kernels": {
-      "head_commit": "6c2bc29d00b7b96485ed7ddc206fcae3206152df",
+      "head_commit": "46ad9b64985e39e6192e64b64abf9a952b1f5ddc",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     },
     "torky-workspace-ui": {
-      "head_commit": "aaf79c7bca827a4c78c9a970e83189d62bfa429d",
+      "head_commit": "5e41979c0c36e60cdae65531c17da0f5ab2b8ce5",
       "status": "ISO_17025_CERTIFIED",
       "working_tree_clean": true
     }
