@@ -11,7 +11,7 @@
 | `torky-engine-appliance` | `31369a9` | ISO_17025_CERTIFIED |
 | `torky-governance-specs` | `78fb842` | ISO_17025_CERTIFIED |
 | `torky-hardware-simulator` | `d58831d` | ISO_17025_CERTIFIED |
-| `torky-ipc-daemon` | `38052bd` | ISO_17025_CERTIFIED |
+| `torky-ipc-daemon` | `e94180b` | ISO_17025_CERTIFIED |
 | `torky-lakehouse-bridges` | `97d868e` | ISO_17025_CERTIFIED |
 | `torky-ontology-security` | `63f0d08` | ISO_17025_CERTIFIED |
 | `torky-quantum-bridge` | `5c32fcf` | ISO_17025_CERTIFIED |
