@@ -4,64 +4,65 @@
   "accreditation": "ISO/IEC 17025 (1dd69a153b00)",
   "repositories": {
     "torky-ast-metacompiler": {
-      "head_commit": "917f7f7acf5d0ee08ffbf570aeb48e2b54397cc0",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "c348b2ffd9ebc44fd6360e2d42a4470fcbde908a",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-cardano-solver": {
-      "head_commit": "215a7eaa35e64421c1dfe8047445805787875418",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "576a1d3f72130cc9d21f21b943d38f3230aefab0",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-core-continuum": {
-      "head_commit": "b6ae59aa004648e79e871e17cbc7032340cbd78e",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "ac22b47609f05e8e4f8e800eddf0436ea76d736d",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-engine-appliance": {
-      "head_commit": "f41907ebd84470f7a4e404a317e29a71e542ab00",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "6cf25110efdffdee71bbd66b80f751117c35a829",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-governance-specs": {
-      "head_commit": "e6a35a34bab40e1682ba70d1986297a4248dc9aa",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "2f9f59c324652ff5668a7399b3899c843c55c1e3",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-hardware-simulator": {
-      "head_commit": "0cf094e44d144f06f518fb14ff1ee79e233cde75",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "03723f4430c0f106503ed2b445241b89b5246a4f",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-ipc-daemon": {
-      "head_commit": "9c880c65125e651a8fabc2d2758ec1e45359f442",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "49c9ea2b1164261ab7a2594483f03e91f829c8d8",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-lakehouse-bridges": {
-      "head_commit": "6537a58f9d34580e3150b13352bd98953114ae8d",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "69456c8492fe8ab8f2f8a49ec49c8af23a45ea92",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-ontology-security": {
-      "head_commit": "d9a807dea37ea9c773f5e752bad505605b050fa3",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "8ee976458910c975e8a3fa8e6f76c95c32359b2d",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-quantum-bridge": {
-      "head_commit": "05e5d78673ea777c849143921d139a2d07cda0eb",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "5648eab90da7de9b142e097e69abaf777033bbac",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-silicon-kernels": {
-      "head_commit": "26341a5debd9c1e6e8ec8c8d1d0c84d6406fd6ef",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "eb1b2a358de14c6772d239d44808c156f9cef401",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     },
     "torky-workspace-ui": {
-      "head_commit": "a7f01e7c630d74eba91caeb86d937239569284b8",
-      "status": "ISO_17025_CERTIFIED_108_TOOLS",
+      "head_commit": "2ab5983edfcfc0b05c9985cbf3b7bc2dab29b466",
+      "status": "ISO_17025_CERTIFIED_118_CORES",
       "working_tree_clean": true
     }
-  }
+  },
+  "total_sovereign_cores": 118
 }
