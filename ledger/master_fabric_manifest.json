@@ -1,119 +1,115 @@
 {
-  "protocol_version": "v5.0.0-omega",
-  "internal_iso17025_crosswalk_seal": "1dd69a153b00",
-  "issuing_body": "Amr Torky Institute for TOE & TOEC (AT-SRIG Internal Metrological Calibration Lab)",
-  "worm_ledger_anchors": [
-    "10.5281/zenodo.1dd69a153b00",
-    "10.5281/zenodo.22785402"
-  ],
-  "repositories": {
+  "schema_version": "v8.0.0-omega",
+  "iso_iec_17025_accreditation": "1dd69a153b00",
+  "primary_zenodo_doi": "10.5281/zenodo.1dd69a153b00",
+  "secondary_zenodo_doi": "10.5281/zenodo.22785402",
+  "synchronization_timestamp_utc": "2026-11-01T20:09:49.514734+00:00",
+  "master_scale_triple": {
+    "l_a_nm": 0.36787944117144233,
+    "epsilon_nm2": 0.016,
+    "xi_t_norm": 1.02e+60,
+    "v_finite_0_cap_ev": 11.384,
+    "fim_floor_nm_neg2": 7.38905609893065,
+    "hessian_kappa_limit": 18.5,
+    "memory_base_pointer": "0x14f46b04000ULL",
+    "cell_struct_size_bytes": 9
+  },
+  "modules": {
     "torky-engine-appliance": {
-      "head_commit": "6cf25110efdffdee71bbd66b80f751117c35a829",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "PRESERVED_BASELINE",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
-    },
-    "torky-ast-metacompiler": {
-      "head_commit": "b5f3d05ca81ded85c2659dce76a76839caf0523b",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
-    },
-    "torky-cardano-solver": {
-      "head_commit": "2b6127c860505fc91afbb287d03f3727982d6107",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+      "title": "Flagship 118-Core Appliance & 108 CLI Tools",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "c317befdf7c9803de0c7b70405befcfe5d868403",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
     "torky-core-continuum": {
-      "head_commit": "5739c440213ff4577c9d4fdffad1ec3bde30d9e5",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+      "title": "C++20 Master Scale Triple & Memory Model",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "dcc41267b7e45c5b1cebde69ea9b62851dc10623",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
-    "torky-governance-specs": {
-      "head_commit": "a93323872761cc095a107944b1468fad00f7c2f5",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+    "torky-cardano-solver": {
+      "title": "Sub-Microsecond Cardano-Viete Root Studio",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "d083d5b0d3e9adceb43fd7d8e9d7cde43810d9ee",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
-    "torky-hardware-simulator": {
-      "head_commit": "34183127c83008156583d002c63bb1e792a0b795",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
-    },
-    "torky-ipc-daemon": {
-      "head_commit": "4644c3daf9640aac8bc4a4be1b48e37fad9102b9",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
-    },
-    "torky-lakehouse-bridges": {
-      "head_commit": "c681575ee6e33953d93addc597cb2a10d73372a9",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
-    },
-    "torky-ontology-security": {
-      "head_commit": "40c06d1cc10c171377c4b89dad10850b9ca8ebff",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+    "torky-ast-metacompiler": {
+      "title": "Autonomous Self-Rewriting AST Metacompiler",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "e0c8d3529c48a0dd6254d97e04bd4f8d4380c36d",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
     "torky-quantum-bridge": {
-      "head_commit": "a158b678ff92f9591af145e008c8964116062e9e",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+      "title": "Cryogenic & Photonic QPU Interface",
+      "doi": "10.5281/zenodo.22785402",
+      "head_commit": "50ca52f021f9fe54aa249b44bf8186b1229cff20",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
     "torky-silicon-kernels": {
-      "head_commit": "09fcc8a665f74f0f803a6e506dd2bc4365a4da9d",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+      "title": "NVIDIA Blackwell & Silicon Photonic ISA",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "9082e2223e8e33adf5f4ea1d8c9cf2eed02c7c85",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
+    },
+    "torky-ipc-daemon": {
+      "title": "Zero-Copy POSIX Shared Memory Ring Buffer",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "6da59841e0ce9b07c810e3d39b5b68b6d6e42652",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
+    },
+    "torky-lakehouse-bridges": {
+      "title": "100B Continuum BigInt Lakehouse Driver",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "3550a46f7c8e86537d492b534ba1addd184c6880",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
+    },
+    "torky-hardware-simulator": {
+      "title": "3000K Thermal Noise & Transmon Simulator",
+      "doi": "10.5281/zenodo.22785402",
+      "head_commit": "f090526283d6b650e02708382e61664ba2564afb",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
+    },
+    "torky-ontology-security": {
+      "title": "Zero-Trust Sovereign Border AI & NIZK",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "93b0fb1fed95931b4cf36a5234feb652fd4de97a",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     },
     "torky-workspace-ui": {
-      "head_commit": "f5c2c7eb8c7af0dce2e8be814cc7510d1d885eca",
-      "run_audit_sh": "./run_audit.sh",
-      "custom_input_runner_py": "./custom_input_runner.py",
-      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES",
-      "cores_active": 180,
-      "five_proof_engine": "ACTIVE_V7_OMEGA"
+      "title": "Unified Sovereign Fabric Control Plane",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "0bdb4a3293ff2c1570205e61b000d570ff1c8d00",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
+    },
+    "torky-governance-specs": {
+      "title": "ISO/IEC 17025 & CERN Zenodo WORM Ledger",
+      "doi": "10.5281/zenodo.1dd69a153b00",
+      "head_commit": "48b9a1d0a24d517c7ea3d0d7a7ea4a71e2e56c0d",
+      "release_tag": "v8.0.0-omega",
+      "zenodo_metadata_file": ".zenodo.json",
+      "status": "ATTESTED_WORM_VERIFIED"
     }
   }
 }
