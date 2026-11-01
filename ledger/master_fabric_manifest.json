@@ -1,68 +1,95 @@
 {
-  "fabric_name": "Torky Enterprise Fabric",
-  "protocol_version": "Torky Protocol Omega v5.0",
-  "accreditation": "ISO/IEC 17025 (1dd69a153b00)",
+  "protocol_version": "v5.0.0-omega",
+  "internal_iso17025_crosswalk_seal": "1dd69a153b00",
+  "issuing_body": "Amr Torky Institute for TOE & TOEC (AT-SRIG Internal Metrological Calibration Lab)",
+  "worm_ledger_anchors": [
+    "10.5281/zenodo.1dd69a153b00",
+    "10.5281/zenodo.22785402"
+  ],
   "repositories": {
-    "torky-ast-metacompiler": {
-      "head_commit": "c348b2ffd9ebc44fd6360e2d42a4470fcbde908a",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
-    },
-    "torky-cardano-solver": {
-      "head_commit": "576a1d3f72130cc9d21f21b943d38f3230aefab0",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
-    },
-    "torky-core-continuum": {
-      "head_commit": "ac22b47609f05e8e4f8e800eddf0436ea76d736d",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
-    },
     "torky-engine-appliance": {
       "head_commit": "6cf25110efdffdee71bbd66b80f751117c35a829",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "PRESERVED_BASELINE"
+    },
+    "torky-ast-metacompiler": {
+      "head_commit": "ae25cd10e83a0db3c0b41cac30b76f7e91e51549",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+    },
+    "torky-cardano-solver": {
+      "head_commit": "9b0f43c7e726dac82d80a8b0db93d9176183edde",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+    },
+    "torky-core-continuum": {
+      "head_commit": "a0145f4f27a6a5e3f608acdda57fba69391e86b0",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-governance-specs": {
-      "head_commit": "2f9f59c324652ff5668a7399b3899c843c55c1e3",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "1dc10cfeaf2cb0458fc0e04d00cca84a6815bfb1",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-hardware-simulator": {
-      "head_commit": "03723f4430c0f106503ed2b445241b89b5246a4f",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "a847a981afd76ad51d5afbafc8dade78f7f22b11",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-ipc-daemon": {
-      "head_commit": "49c9ea2b1164261ab7a2594483f03e91f829c8d8",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "76ce129b92df798483c91dede9ca9f874177dca3",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-lakehouse-bridges": {
-      "head_commit": "69456c8492fe8ab8f2f8a49ec49c8af23a45ea92",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "1cc25ab17400dabceb0b9c594bfc89d07ff88eae",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-ontology-security": {
-      "head_commit": "8ee976458910c975e8a3fa8e6f76c95c32359b2d",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "0432bd6a939422efcaa56f1846c42906d936dde7",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-quantum-bridge": {
-      "head_commit": "5648eab90da7de9b142e097e69abaf777033bbac",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "5437736d5197c560ca3870a2013adf8a0752f804",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-silicon-kernels": {
-      "head_commit": "eb1b2a358de14c6772d239d44808c156f9cef401",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "97428f19bc254faf8f09c7e47cff7ebdf9d780cc",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     },
     "torky-workspace-ui": {
-      "head_commit": "2ab5983edfcfc0b05c9985cbf3b7bc2dab29b466",
-      "status": "ISO_17025_CERTIFIED_118_CORES",
-      "working_tree_clean": true
+      "head_commit": "948f0c3f0d73c80386a1f30bd0bb7264a67da2c5",
+      "run_audit_sh": "./run_audit.sh",
+      "custom_input_runner_py": "./custom_input_runner.py",
+      "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
+      "status": "DIFFERENTIATED_STUDIO_118_CORES"
     }
-  },
-  "total_sovereign_cores": 118
+  }
 }

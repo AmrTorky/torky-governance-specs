@@ -1,4 +1,6 @@
 
+audit_artifacts/
 bin/
 build/
+lib/
 local_verification_certificate.json
