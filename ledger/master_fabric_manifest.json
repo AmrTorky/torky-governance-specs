@@ -111,5 +111,9 @@
       "zenodo_metadata_file": ".zenodo.json",
       "status": "ATTESTED_WORM_VERIFIED"
     }
-  }
+  },
+  "active_zenodo_deposition_id": "23867224",
+  "active_zenodo_deposit_url": "https://zenodo.org/deposit/23867224",
+  "direct_rest_status": "UPLOADED_AND_ATTESTED",
+  "last_sync_utc": "2026-11-01T20:32:49.585111+00:00"
 }
