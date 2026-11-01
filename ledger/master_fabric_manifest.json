@@ -12,84 +12,96 @@
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "PRESERVED_BASELINE"
+      "status": "PRESERVED_BASELINE",
+      "cores_active": 144
     },
     "torky-ast-metacompiler": {
-      "head_commit": "ae25cd10e83a0db3c0b41cac30b76f7e91e51549",
+      "head_commit": "1123e60cc2ed61fe6bd789e2f09ed4f434f300d4",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-cardano-solver": {
-      "head_commit": "9b0f43c7e726dac82d80a8b0db93d9176183edde",
+      "head_commit": "f93ae2a9d3b6d20c978426110f809f326e195e93",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-core-continuum": {
-      "head_commit": "a0145f4f27a6a5e3f608acdda57fba69391e86b0",
+      "head_commit": "8370ebaad5d0e04f852d36c24ccac7c2e3238e62",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-governance-specs": {
-      "head_commit": "1dc10cfeaf2cb0458fc0e04d00cca84a6815bfb1",
+      "head_commit": "83a6cadce862164f9bbef799452a26106664a662",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-hardware-simulator": {
-      "head_commit": "a847a981afd76ad51d5afbafc8dade78f7f22b11",
+      "head_commit": "e08a201b0f1114debe8770857d30c17a59a5fca3",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-ipc-daemon": {
-      "head_commit": "76ce129b92df798483c91dede9ca9f874177dca3",
+      "head_commit": "7b751b54dc29a586430b53d8e17b3c596f82afc3",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-lakehouse-bridges": {
-      "head_commit": "1cc25ab17400dabceb0b9c594bfc89d07ff88eae",
+      "head_commit": "f163f332092b15d7fa5fa574b64684b710b26821",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-ontology-security": {
-      "head_commit": "0432bd6a939422efcaa56f1846c42906d936dde7",
+      "head_commit": "10aded66809393f59f11017544666e4b067cfb6c",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-quantum-bridge": {
-      "head_commit": "5437736d5197c560ca3870a2013adf8a0752f804",
+      "head_commit": "60b0d7fad50d6b1b20540f98617aa840688f5fa0",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-silicon-kernels": {
-      "head_commit": "97428f19bc254faf8f09c7e47cff7ebdf9d780cc",
+      "head_commit": "bbd69d0afe71d3ab86d35dfef6e083854a61024f",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     },
     "torky-workspace-ui": {
-      "head_commit": "948f0c3f0d73c80386a1f30bd0bb7264a67da2c5",
+      "head_commit": "2c4a70f1149d14ff07764b5cb6ead054b04f1b76",
       "run_audit_sh": "./run_audit.sh",
       "custom_input_runner_py": "./custom_input_runner.py",
       "maria_ceos_controlled_test_py": "./maria_ceos_controlled_test.py",
-      "status": "DIFFERENTIATED_STUDIO_118_CORES"
+      "status": "DIFFERENTIATED_STUDIO_118_CORES",
+      "cores_active": 144
     }
   }
 }
